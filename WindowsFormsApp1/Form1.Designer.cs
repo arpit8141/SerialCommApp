@@ -41,59 +41,66 @@
             // cmbPorts
             // 
             this.cmbPorts.FormattingEnabled = true;
-            this.cmbPorts.Location = new System.Drawing.Point(27, 27);
+            this.cmbPorts.Location = new System.Drawing.Point(24, 22);
+            this.cmbPorts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbPorts.Name = "cmbPorts";
-            this.cmbPorts.Size = new System.Drawing.Size(121, 28);
+            this.cmbPorts.Size = new System.Drawing.Size(108, 24);
             this.cmbPorts.TabIndex = 0;
             this.cmbPorts.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(154, 27);
+            this.btnConnect.Location = new System.Drawing.Point(137, 22);
+            this.btnConnect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(99, 34);
+            this.btnConnect.Size = new System.Drawing.Size(88, 27);
             this.btnConnect.TabIndex = 1;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
             // 
             // btnDisconnect
             // 
-            this.btnDisconnect.Location = new System.Drawing.Point(259, 27);
+            this.btnDisconnect.Location = new System.Drawing.Point(230, 22);
+            this.btnDisconnect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDisconnect.Name = "btnDisconnect";
-            this.btnDisconnect.Size = new System.Drawing.Size(99, 34);
+            this.btnDisconnect.Size = new System.Drawing.Size(115, 27);
             this.btnDisconnect.TabIndex = 2;
             this.btnDisconnect.Text = "Disconnect";
             this.btnDisconnect.UseVisualStyleBackColor = true;
             // 
             // txtSendData
             // 
-            this.txtSendData.Location = new System.Drawing.Point(561, 83);
+            this.txtSendData.Location = new System.Drawing.Point(499, 66);
+            this.txtSendData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSendData.Name = "txtSendData";
-            this.txtSendData.Size = new System.Drawing.Size(100, 26);
+            this.txtSendData.Size = new System.Drawing.Size(89, 22);
             this.txtSendData.TabIndex = 3;
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(561, 27);
+            this.btnSend.Location = new System.Drawing.Point(499, 22);
+            this.btnSend.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(99, 34);
+            this.btnSend.Size = new System.Drawing.Size(88, 27);
             this.btnSend.TabIndex = 4;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
             // 
             // txtReceivedData
             // 
-            this.txtReceivedData.Location = new System.Drawing.Point(27, 260);
+            this.txtReceivedData.Location = new System.Drawing.Point(24, 208);
+            this.txtReceivedData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtReceivedData.Multiline = true;
             this.txtReceivedData.Name = "txtReceivedData";
-            this.txtReceivedData.Size = new System.Drawing.Size(289, 166);
+            this.txtReceivedData.Size = new System.Drawing.Size(257, 134);
             this.txtReceivedData.TabIndex = 5;
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(665, 27);
+            this.btnClear.Location = new System.Drawing.Point(591, 22);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(99, 34);
+            this.btnClear.Size = new System.Drawing.Size(88, 27);
             this.btnClear.TabIndex = 6;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -101,17 +108,17 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(708, 406);
+            this.lblStatus.Location = new System.Drawing.Point(629, 325);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(56, 20);
+            this.lblStatus.Size = new System.Drawing.Size(44, 16);
             this.lblStatus.TabIndex = 7;
             this.lblStatus.Text = "Status";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(711, 360);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.txtReceivedData);
@@ -120,6 +127,7 @@
             this.Controls.Add(this.btnDisconnect);
             this.Controls.Add(this.btnConnect);
             this.Controls.Add(this.cmbPorts);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
